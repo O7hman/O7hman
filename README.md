@@ -2,7 +2,7 @@
 - 👀 I’m interested in Data Analytics & Data Science
 - 🌱 I’m currently learning Tableau
 - 💞️ I’m looking to collaborate on Projects involving Python and Big data 
-- 📫 Can be reach via da7atech@gmail.com
+- 📫 Can be reach via 07hman7@gmail.com
 
 <!---
 O7hman/O7hman is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
