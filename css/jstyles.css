@@ -1,0 +1,89 @@
+/* GLOBAL STYLES
+--------------------------------- */
+html {
+    box-sizing: border-box;
+}
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+a {
+    color: #3C5384
+}
+
+a:hover {
+    color: #bcaa96;
+    text-decoration: none;
+}
+
+/* HOME
+--------------------------------- */
+
+.backh1 {
+    background: #f6f6f6;
+    position: absolute;
+    bottom: -3px;
+    right: -8px;
+    margin: 0;
+    padding: 0 10px;
+    transform: skew(-20deg);
+    border-radius: 4px;
+}
+
+.backh1 h1 {
+    font-size: 1rem;
+    line-height: 0.5rem;
+    letter-spacing: 0.1em;
+}
+
+p {
+    padding-left: 1%;
+    font-size: 1.2rem;
+}
+
+.home .content-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    background-color: #f6f6f6;    
+}
+
+.home .journal-bg {
+    position: relative;
+    display: flow-root;
+    background: url(../images/NL.jpeg) no-repeat;
+    background-size: cover;
+    height: 80%;
+    transition: height 0.5s
+}
+
+.home .journal-main {
+    background-color: #f6f6f6;
+}
+
+.intro {
+    height: 0;
+    max-width: 900px;
+    text-align: justify;
+    margin: 0 auto;
+    overflow: hidden;
+    transition: height 0.5s;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* FOOTER
+--------------------------------- */
+
+footer {
+    background: white;
+}
