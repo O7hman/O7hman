@@ -24,6 +24,17 @@ a:hover {
 /* HOME
 --------------------------------- */
 
+/* .backh1 {
+    background: #f6f6f6;
+    position: absolute;
+    bottom: -3px;
+    right: -8px;
+    margin: 0;
+    padding: 0 10px;
+    transform: skew(-20deg);
+    border-radius: 4px;
+} */
+
 .backh1 {
     position: absolute;
     bottom: 0;
@@ -47,31 +58,36 @@ p {
     font-size: 1.2rem;
 }
 
-.home .content-wrapper {
+.content-wrapper {
     display: flex;
     flex-direction: column;
     flex: 1 0 auto;
-    background-color: #f6f6f6;    
+    background-color: #f6f6f6;
 }
 
-.home .journal-bg {
+/* Setting the height to "80%" of the child will affect the overall height of the parent "content-wrapper"
+with no specific height*/
+.content-wrapper .journal-bg {
     position: relative;
-    display: flow-root;
     background: url(../images/NL.jpeg) no-repeat;
     background-size: cover;
     height: 80%;
     transition: height 0.5s
 }
 
-.home .journal-main {
+.content-wrapper .journal-main {
     background-color: #f6f6f6;
 }
 
 .intro {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    gap: 10px;
     height: 0;
-    max-width: 900px;
+    width: 900px;
     text-align: justify;
-    margin: 0 auto;
+    margin: 10px auto;
     overflow: hidden;
     transition: height 0.5s;
 
