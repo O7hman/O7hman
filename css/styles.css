@@ -208,6 +208,16 @@ footer a:hover {
         margin-top: 0;
     }
 }
+/* Skills
+------------------------------------*/
+
+.skills li{
+    display:inline-block;
+    list-style: circle;
+    margin: 1rem 1rem;
+    font-weight: 600;
+    color: #808080;
+}
 
 /* Education
 ------------------------------------*/
