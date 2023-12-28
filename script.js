@@ -31,7 +31,7 @@ var intro = document.querySelector('.intro')
 
 items.forEach(m=>{
     let link = document.createElement('a')
-    link.href = `${m}.html`
+    link.href = `${m}`
     link.target = '_blank'
 
     let wrapper = document.createElement('div')
